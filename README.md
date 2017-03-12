@@ -4,7 +4,7 @@ Npm package to retrieve a individual's social streams.
 
 
 # Usage
-
+```
 const getTimeline = require('voice');
 
 // Ignore a service by setting to false
@@ -46,7 +46,7 @@ getTimeline(availableServices, secrets)
     .catch(err => {
 
     })
-
+```
 
 
 
